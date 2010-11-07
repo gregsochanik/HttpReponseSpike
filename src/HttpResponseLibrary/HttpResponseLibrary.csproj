@@ -46,6 +46,7 @@
     <Compile Include="Track\TrackStreamer.cs" />
     <Compile Include="Track\TrackStreamResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebHeaderBuilder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
