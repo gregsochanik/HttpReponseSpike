@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpResponseSpike", "src\HttpResponseSpike\HttpResponseSpike.csproj", "{109F2A6A-F065-4DB1-A140-229C790984F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpResponseLibrary", "src\HttpResponseLibrary\HttpResponseLibrary.csproj", "{2EBD2151-8053-44C7-A243-368B6D03C6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpResponseLibraryTest", "src\HttpResponseLibraryTest\HttpResponseLibraryTest.csproj", "{122DEC5D-36FE-4DFB-ABA9-347D2B85805B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{109F2A6A-F065-4DB1-A140-229C790984F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109F2A6A-F065-4DB1-A140-229C790984F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109F2A6A-F065-4DB1-A140-229C790984F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109F2A6A-F065-4DB1-A140-229C790984F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBD2151-8053-44C7-A243-368B6D03C6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBD2151-8053-44C7-A243-368B6D03C6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBD2151-8053-44C7-A243-368B6D03C6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBD2151-8053-44C7-A243-368B6D03C6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122DEC5D-36FE-4DFB-ABA9-347D2B85805B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122DEC5D-36FE-4DFB-ABA9-347D2B85805B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122DEC5D-36FE-4DFB-ABA9-347D2B85805B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122DEC5D-36FE-4DFB-ABA9-347D2B85805B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

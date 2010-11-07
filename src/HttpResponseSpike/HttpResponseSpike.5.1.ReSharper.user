@@ -1,0 +1,164 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="694" fromTop="20" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamer.cs" caret="1428" fromTop="40" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="617" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="803" fromTop="33" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="31" fromTop="1" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="693" fromTop="18" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="693" fromTop="25" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="693" fromTop="17" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="1083" fromTop="32" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="694" fromTop="29" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="694" fromTop="29" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="615" fromTop="30" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="615" fromTop="41" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="694" fromTop="32" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="693" fromTop="8" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="597" fromTop="15" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="615" fromTop="19" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="50" fromTop="2" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="560" fromTop="22" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="679" fromTop="23" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="694" fromTop="14" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/f:Default.aspx.cs" caret="1060" fromTop="26" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="121" fromTop="7" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="615" fromTop="28" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamer.cs" caret="1168" fromTop="35" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamer.cs" caret="1428" fromTop="40" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="782" fromTop="27" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="625" fromTop="26" />
+      <File id="109F2A6A-F065-4DB1-A140-229C790984F5/d:Http/f:TrackStreamResponse.cs" caret="775" fromTop="33" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="8" />
+      <Item value="StubResponse`0" priority="3" />
+      <Item value="Stream`0" priority="4" />
+      <Item value="ctor" priority="0" />
+      <Item value="ResponseStream" priority="2" />
+      <Item value="Headers" priority="1" />
+      <Item value="class" priority="0" />
+      <Item value="return" priority="3" />
+      <Item value="new" priority="9" />
+      <Item value="StubResponse" priority="0" />
+      <Item value="WebHeaderCollection`0" priority="1" />
+      <Item value="string" priority="0" />
+      <Item value="FileStream`0" priority="0" />
+      <Item value="FileStream" priority="0" />
+      <Item value="filePath" priority="0" />
+      <Item value="FileAccess`0" priority="0" />
+      <Item value="response" priority="6" />
+      <Item value="fs" priority="4" />
+      <Item value="var" priority="3" />
+      <Item value="headers" priority="0" />
+      <Item value="HttpResponseHeader" priority="0" />
+      <Item value="NameValueCollection" priority="0" />
+      <Item value="NameValueCollection`0" priority="0" />
+      <Item value="HttpResponseHeader`0" priority="0" />
+      <Item value="output" priority="0" />
+      <Item value="Response" priority="6" />
+      <Item value="foreach" priority="0" />
+      <Item value="header" priority="0" />
+      <Item value="headerKey" priority="0" />
+      <Item value="while" priority="0" />
+      <Item value="byte" priority="2" />
+      <Item value="buffer" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="Read" priority="1" />
+      <Item value="FileOptions`0" priority="0" />
+      <Item value="FileInfo`0" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="_output" priority="1" />
+      <Item value="if" priority="0" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="TrackStreamResponseTests`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Stream">
+      <Item value="Null" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileAccess">
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileMode">
+      <Item value="Open" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.WebHeaderCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="Keys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.HttpResponseHeader">
+      <Item value="ContentType" priority="0" />
+      <Item value="ContentLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.HttpResponseHeader">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Length" priority="1" />
+      <Item value="Flush`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Write`0" priority="2" />
+      <Item value="Headers" priority="3" />
+      <Item value="AppendHeader`0" priority="1" />
+      <Item value="BinaryWrite`0" priority="2" />
+      <Item value="AddHeader`0" priority="2" />
+      <Item value="TransmitFile`0" priority="0" />
+      <Item value="OutputStream" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HttpResponseSpike.Http.TrackStreamer">
+      <Item value="StreamTrack`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HttpResponseSpike.Http.StubResponse">
+      <Item value="Headers" priority="0" />
+      <Item value="ResponseStream" priority="6" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Read`0" priority="0" />
+      <Item value="ReadByte`0" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="BeginRead`0" priority="0" />
+      <Item value="Write`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Flush`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileOptions">
+      <Item value="Asynchronous" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.NameValueCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileShare">
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
