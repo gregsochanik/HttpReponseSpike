@@ -18,8 +18,8 @@ namespace HttpResponseLibrary.Track
             var stream = _streamFactory.GetStream(filePath) as FileStream;
             string downloadFlename = CleanFilename(filePath);
             long fileLength = RegisterFileLength(stream);
-            WebHeaderCollection headers = SetResponseHeaders(fileLength, downloadFlename);
-            return new TrackStreamResponse(stream, headers);
+            WebHeaderCollection headers = SetResponseHeaders("audio/mpeg", fileLength, downloadFlename);
+            return new TrackStreamResponse(headers, stream);
         }
 
         private static long RegisterFileLength(FileStream stream)
@@ -35,11 +35,11 @@ namespace HttpResponseLibrary.Track
             return Regex.Replace(fileName, " ", "_");
         }
 
-        private static WebHeaderCollection SetResponseHeaders(long fileLength, string downloadFlename)
+        private static WebHeaderCollection SetResponseHeaders(string mimeType, long fileLength, string downloadFlename)
         {
             return new WebHeaderCollection
                        {
-                           {HttpResponseHeader.ContentType, "audio/mpeg"},
+                           {HttpResponseHeader.ContentType, mimeType},
                            {HttpResponseHeader.ContentLength, fileLength.ToString()},
                            {"Content-Disposition", string.Format("attachment; filename={0}", downloadFlename)}
                        };

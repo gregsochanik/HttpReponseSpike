@@ -14,7 +14,7 @@ namespace HttpResponseLibraryTest
             var stream = MockRepository.GenerateStub<Stream>();
             var headers = new WebHeaderCollection();
 
-            var trackStreamResponse = new TrackStreamResponse(stream, headers);
+            var trackStreamResponse = new TrackStreamResponse(headers, stream);
 
             Assert.AreSame(stream, trackStreamResponse.ResponseStream);
             Assert.AreEqual(headers, trackStreamResponse.Headers);
@@ -26,7 +26,7 @@ namespace HttpResponseLibraryTest
             var stream = MockRepository.GenerateStub<Stream>();
             var headers = new WebHeaderCollection();
 
-            using(var trackStreamResponse = new TrackStreamResponse(stream, headers))
+            using(var trackStreamResponse = new TrackStreamResponse(headers, stream))
             {
                 stream.AssertWasNotCalled(x =>x.Close());
             }

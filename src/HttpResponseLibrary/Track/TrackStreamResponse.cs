@@ -9,10 +9,10 @@ namespace HttpResponseLibrary.Track
         public WebHeaderCollection Headers { get; set; }
         public Stream ResponseStream { get; set; }
 
-        public TrackStreamResponse(Stream responseStream, WebHeaderCollection headers)
+        public TrackStreamResponse(WebHeaderCollection headers, Stream responseStream)
         {
-            ResponseStream = responseStream;
             Headers = headers;
+            ResponseStream = responseStream;
         }
 
         public void Dispose()
