@@ -61,7 +61,6 @@ namespace HttpResponseSpike
         public void Flush()
         {
             Response.Flush();
-
             if (Response.IsClientConnected == false)
             {
                 Response.End();
