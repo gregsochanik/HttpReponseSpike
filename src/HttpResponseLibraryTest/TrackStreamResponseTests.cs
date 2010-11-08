@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Specialized;
+using System.IO;
 using System.Net;
 using HttpResponseLibrary.Track;
 using NUnit.Framework;
@@ -12,7 +13,7 @@ namespace HttpResponseLibraryTest
         public void SuccessCtor()
         {
             var stream = MockRepository.GenerateStub<Stream>();
-            var headers = new WebHeaderCollection();
+            var headers = new NameValueCollection();
 
             var trackStreamResponse = new TrackStreamResponse(headers, stream);
 
@@ -24,7 +25,7 @@ namespace HttpResponseLibraryTest
         public void Response_should_be_closed_when_streamresponse_disposed()
         {
             var stream = MockRepository.GenerateStub<Stream>();
-            var headers = new WebHeaderCollection();
+            var headers = new NameValueCollection();
 
             using(var trackStreamResponse = new TrackStreamResponse(headers, stream))
             {

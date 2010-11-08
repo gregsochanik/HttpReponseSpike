@@ -1,15 +1,15 @@
 ﻿using System;
+using System.Collections.Specialized;
 using System.IO;
-using System.Net;
 
 namespace HttpResponseLibrary.Track
 {
     public class TrackStreamResponse : IDisposable
     {
-        public WebHeaderCollection Headers { get; set; }
+        public NameValueCollection Headers { get; set; }
         public Stream ResponseStream { get; set; }
 
-        public TrackStreamResponse(WebHeaderCollection headers, Stream responseStream)
+        public TrackStreamResponse(NameValueCollection headers, Stream responseStream)
         {
             Headers = headers;
             ResponseStream = responseStream;
