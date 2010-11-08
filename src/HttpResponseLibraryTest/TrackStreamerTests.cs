@@ -18,11 +18,11 @@ namespace HttpResponseLibraryTest
                                           {"Content-Disposition", string.Format("attachment; filename={0}","06_Siberian_Breaks.mp3")}
                                       };
 
-            using (var response = new TrackStreamer(new StreamFactory()).StreamTrack("mediapool/06 Siberian Breaks.mp3"))
+            using (var trackStreamResponse = new TrackStreamer(new StreamFactory()).StreamTrack("mediapool/06 Siberian Breaks.mp3"))
             {
-                Assert.AreEqual(expectedHeaders, response.Headers);
-                Assert.Greater(response.ResponseStream.Length, 0);
-                Assert.AreEqual(response.ResponseStream.Length, 11636864);
+                Assert.AreEqual(expectedHeaders, trackStreamResponse.Headers);
+                Assert.Greater(trackStreamResponse.ResponseStream.Length, 0);
+                Assert.AreEqual(trackStreamResponse.ResponseStream.Length, 11636864);
             }
         }
     }
