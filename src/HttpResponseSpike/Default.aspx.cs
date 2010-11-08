@@ -6,7 +6,7 @@ using HttpResponseLibrary.Track;
 
 namespace HttpResponseSpike
 {
-    public partial class _Default : System.Web.UI.Page
+    public partial class _Default : System.Web.UI.Page, IFlushable
     {
         private TrackStreamer _trackStreamer;
 
@@ -29,10 +29,12 @@ namespace HttpResponseSpike
 
         private void OutputResponse(string filePath)
         {
+            var autoFlushStream = new AutoFlushStreamDecorator(this, Response.OutputStream);
+
             using (var response = _trackStreamer.StreamTrack(filePath))
             {
                 CopyHeaders(response.Headers);
-                CopyStream(response.ResponseStream, Response.OutputStream); // NOTE: Response can still be decorated with AutoFlush at this point
+                CopyStream(response.ResponseStream, autoFlushStream);
             }
         }
 
@@ -53,6 +55,16 @@ namespace HttpResponseSpike
                 if (read <= 0)
                     return;
                 output.Write(buffer, 0, read);
+            }
+        }
+
+        public void Flush()
+        {
+            Response.Flush();
+
+            if (Response.IsClientConnected == false)
+            {
+                Response.End();
             }
         }
     }

@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoFlushStreamDecorator.cs" />
+    <Compile Include="IFlushable.cs" />
     <Compile Include="IStreamFactory.cs" />
     <Compile Include="StreamFactory.cs" />
     <Compile Include="Track\IStreamer.cs" />
