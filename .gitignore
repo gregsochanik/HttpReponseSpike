@@ -4,3 +4,5 @@ _ReSharper*
 *.[oa]
 /src/*/obj/
 /src/*/bin/
+
+*.user
